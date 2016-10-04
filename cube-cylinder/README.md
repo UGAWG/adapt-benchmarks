@@ -1,5 +1,6 @@
 
-Test case for the unstructured grid adaptation
+This is a test case for unstructured grid adaptation constrainted to
+geometry.
 
 The geometry is a unit cube with a cylinder of radius 0.5 centered
 about the z-axis Boolean subtracted from the cube.
