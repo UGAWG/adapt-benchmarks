@@ -17,6 +17,7 @@ h0 = 0.001
 in section IV.B Analytic 3D Metric Field of
 
 http://ntrs.nasa.gov/search.jsp?R=20160006030
+
 http://arc.aiaa.org/doi/abs/10.2514/6.2015-2292
 
 ```
