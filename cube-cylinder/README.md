@@ -36,7 +36,7 @@ r=sqrt(x^2+y^2)
 t=atan2(y,x)
 h_z = 0.1
 h_t = 0.1
-h_r = h0 + 2*(0.1-h0)*abs(z-0.5)
+h_r = h0 + 2*(0.1-h0)*abs(r-0.5)
 h0 = 0.001
 # t is in the theta direction
 # r is radial direction
