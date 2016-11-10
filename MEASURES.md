@@ -30,7 +30,7 @@ edge vectors `v(e), e in E`, and corner metric tensors `M(c), c in C`,
 its quality in metric space `Q` is:
 
 ```
-Q = ((V_m / V_eq)^(2/dim))/l_msq
+Q = ((V_m / V_eq)^(2/3))/l_msq
 V_m = V * sqrt(det(M_max))
 M_max = argmax over M(c), c in C: det(M(c))
 l_msq = (sum over e in E: v(e)^T * M_max * v(e)) / 6
