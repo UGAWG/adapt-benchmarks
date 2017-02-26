@@ -41,3 +41,11 @@ h0 = 0.001
 # t is in the theta direction
 # r is radial direction
 ```
+
+an alternative metric that is easier to satisfy with high-quality elements
+refines along theta near the layer, like this:
+
+```
+d = (0.6 - r) * 10
+h_t = (d < 0) ? (0.1) : (d * (1 / 40) + (1 - d) * 0.1)
+```
