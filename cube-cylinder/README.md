@@ -8,7 +8,9 @@ about the z-axis Boolean subtracted from the cube.
 Geometry is provided in STEP format and EGADS with an initial
 tessellation.
 
-There are two metric fields,
+There are three metric fields,
+
+## linear
 
 ```
    + h_x^-2   0      0    +
@@ -23,7 +25,7 @@ h_z = h0 + 2*(0.1-h0)*abs(z-0.5)
 h0 = 0.001
 ```
 
-and
+## polar-1
 
 ```
    + cos(t) -sin(t)   0    ++ h_r^-2   0      0    ++ cos(t)  sin(t)   0    +
@@ -42,8 +44,10 @@ h0 = 0.001
 # r is radial direction
 ```
 
-an alternative metric that is easier to satisfy with high-quality elements
-refines along theta near the layer, like this:
+## polar-2
+
+A modified polar-1 metric that is easier to satisfy with high-quality elements
+by refining along theta near the layer,
 
 ```
 d = (0.6 - r) * 10
