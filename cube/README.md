@@ -1,5 +1,7 @@
 
-metric field is equ 18 from
+## linear
+
+The linear metric field is
 
 ```
    + h_x^-2   0      0    +
@@ -14,7 +16,7 @@ h_z = h0 + 2*(0.1-h0)*abs(z-0.5)
 h0 = 0.001
 ```
 
-in section IV.B Analytic 3D Metric Field of
+from eq. (18) in section IV.B Analytic 3D Metric Field of
 
 http://ntrs.nasa.gov/search.jsp?R=20160006030
 
