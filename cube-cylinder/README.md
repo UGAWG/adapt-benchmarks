@@ -50,6 +50,6 @@ A modified polar-1 metric that is easier to satisfy with high-quality elements
 by refining along theta near the layer,
 
 ```
-d = (0.6 - r) * 10
+d = abs(0.6 - r) * 10
 h_t = (d < 0) ? (0.1) : (d * (1 / 40) + (1 - d) * 0.1)
 ```
