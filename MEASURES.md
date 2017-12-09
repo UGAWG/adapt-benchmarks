@@ -22,12 +22,12 @@ l_b = sqrt(v^T * M_b * v)
 
 Where `eps` is some arbitrary tolerance (Omega_h uses `1e-3`).
 
-## Metric Quality (Omega_h)
+## Metric Mean Ratio (Omega_h)
 
 For a tetrahedron `K=(E,C)` with corner vertices `C`
 and edges `E`, real space volume `V`,
 edge vectors `v(e), e in E`, and corner metric tensors `M(c), c in C`,
-its quality in metric space `Q` is:
+its mean ratio in metric space `Q` is:
 
 ```
 Q = ((V_m / V_eq)^(2/3))/l_msq
